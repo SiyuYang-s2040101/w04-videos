@@ -14,6 +14,8 @@ def quad_R_roots(a, b, c):
     x2 = (-b - (D)**0.5)/(2*a)
     return x1, x2
 
+print(quad_R_roots(2, -1, -3))
+print(quad_R_roots(1, 2, 5))
 
 def quad_C_roots(aR, bR, cR):
     a = np.complex(aR, 0)
@@ -27,3 +29,5 @@ def quad_C_roots(aR, bR, cR):
 
 print(quad_C_roots(2, -1, -3))
 print(quad_C_roots(1, 2, 5))
+
+# %%
